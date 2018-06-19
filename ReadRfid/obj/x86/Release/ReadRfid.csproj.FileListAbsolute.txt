@@ -1,0 +1,4 @@
+E:\外挂软件\PTester外挂\LocalServer\ReadRfid\obj\x86\Release\ReadRfid.csprojResolveAssemblyReference.cache
+E:\外挂软件\PTester外挂\LocalServer\ReadRfid\obj\x86\Release\ReadRfid.Form1.resources
+E:\外挂软件\PTester外挂\LocalServer\ReadRfid\obj\x86\Release\ReadRfid.Properties.Resources.resources
+E:\外挂软件\PTester外挂\LocalServer\ReadRfid\obj\x86\Release\ReadRfid.csproj.GenerateResource.Cache

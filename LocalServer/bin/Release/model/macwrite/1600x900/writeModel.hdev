@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.0" halcon_version="10.0" cs="32226977">
+<procedure name="main">
+<interface/>
+<body>
+<l>*read_image (Image, 'C:/Users/shen/Desktop/model/点按钮后.bmp')</l>
+<l>*read_image (Image, 'E:/labview/k2testdll/model/OK.png')</l>
+<c></c>
+<l>read_image (Image, 'E:/labview/k2testdll/model/初始化.png')</l>
+<c></c>
+<c></c>
+<l>*threshold (Image1, Regions, 0, 2)</l>
+<l>*connection (Regions, ConnectedRegions)</l>
+<l>*select_shape (ConnectedRegions, SelectedRegions, 'area', 'and', 154577, 154577)</l>
+<l>*rectangularity (ConnectedRegions, Rectangularity)</l>
+<l>*select_shape (ConnectedRegions, SelectedRegions, 'rectangularity', 'and', 0.8, 1)</l>
+<l>*select_shape (SelectedRegions, SelectedRegions1, 'area', 'and', 130000, 158720)</l>
+<l>*area_center (SelectedRegions1, Area, Row3, Column3)</l>
+<c></c>
+<l>gen_rectangle1 (Rectangle,216, 1024,258, 1200)</l>
+<l>reduce_domain (Image, Rectangle, ImageReduced)</l>
+<l>create_ncc_model (ImageReduced, 'auto', -0.39, 0.79, 'auto', 'use_polarity', ModelID1)</l>
+<l>write_ncc_model (ModelID1, 'C:/Users/shen/Desktop/model/starting.ncm')</l>
+<l>read_ncc_model ('C:/Users/shen/Desktop/model/starting.ncm', ModelID)</l>
+<l>find_ncc_model (Image, ModelID, 0, 0, 0.8, 2, 0.3, 'true', 0, Row, Column, Angle, Score)</l>
+<c></c>
+<c></c>
+<c></c>
+<c>*找出分界线</c>
+<l>gen_circle (Circle, Row, Column, 10)</l>
+<c></c>
+<c>*find_ncc_model</c>
+<c>*read_ncc_model</c>
+<c>*read_image</c>
+<l>*threshold (Image1, Regions, 0, 2)</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

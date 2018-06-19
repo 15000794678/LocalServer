@@ -1,0 +1,22 @@
+---- LoadCfg Matches (2 in 2 files) ----
+Form1.cs (localserver):            MyData.LoadCfg();
+MyData.cs (localserver):        public static void LoadCfg()
+---- m_strCmd Matches (18 in 5 files) ----
+Form2.cs (localserver):        private string m_strCmd = string.Empty;
+MyPort.cs (localserver):                        m_strCmd += str;
+MyTcp.cs (localserver):                        m_strCmd += str;
+MyTcp.cs (localserver):                    Log("¡¾TCP¡¿, " + DateTime.Now.ToString() + ", Rx:" + m_strCmd);
+ProcessCom.cs (localserver):                if (m_strCmd.IndexOf("*") < 0)
+ProcessCom.cs (localserver):                    m_strCmd = string.Empty;
+ProcessCom.cs (localserver):                if (m_strCmd.IndexOf("#") < 0)
+ProcessCom.cs (localserver):                if (m_strCmd.IndexOf("*") > m_strCmd.IndexOf("#"))
+ProcessCom.cs (localserver):                    m_strCmd = m_strCmd.Substring(m_strCmd.IndexOf("*"));
+ProcessCom.cs (localserver):                string cmd = m_strCmd.Substring(m_strCmd.IndexOf("*"), m_strCmd.IndexOf("#") - m_strCmd.IndexOf("*") + 1);
+ProcessCom.cs (localserver):                m_strCmd = m_strCmd.Substring(m_strCmd.IndexOf("#") + 1);
+ProcessTcp.cs (localserver):                lock (m_strCmd)
+ProcessTcp.cs (localserver):                    m_strCmd = string.Empty;
+ProcessTcp.cs (localserver):                        if (m_strCmd.Contains("SN:"))
+ProcessTcp.cs (localserver):                            m_strMac = m_strCmd.Replace("SN:", "");                            
+ProcessTcp.cs (localserver):                lock (m_strCmd)
+ProcessTcp.cs (localserver):                    m_strCmd = string.Empty;
+ProcessTcp.cs (localserver):                        if (m_strCmd.Contains("*OUTPUT#"))

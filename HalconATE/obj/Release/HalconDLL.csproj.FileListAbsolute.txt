@@ -1,0 +1,9 @@
+E:\Git\LocalServer\HalconDLL\obj\Release\HalconDLL.csprojResolveAssemblyReference.cache
+E:\Git\LocalServer\HalconDLL\bin\Release\HalconDLL.dll
+E:\Git\LocalServer\HalconDLL\bin\Release\HalconDLL.pdb
+E:\Git\LocalServer\HalconDLL\obj\Release\HalconDLL.dll
+E:\Git\LocalServer\HalconDLL\obj\Release\HalconDLL.pdb
+E:\Git\LocalServer\LocalServer\bin\Release\HalconDLL.dll
+E:\Git\LocalServer\LocalServer\bin\Release\HalconDLL.pdb
+E:\Git\LocalServer\HalconDLL\bin\Release\halcondotnet.dll
+E:\Git\LocalServer\HalconDLL\bin\Release\halcondotnet.xml

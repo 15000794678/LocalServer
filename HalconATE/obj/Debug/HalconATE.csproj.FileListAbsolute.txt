@@ -1,0 +1,10 @@
+E:\Git\LocalServer\HalconATE\bin\Debug\HalconATE.dll
+E:\Git\LocalServer\HalconATE\bin\Debug\HalconATE.pdb
+E:\Git\LocalServer\HalconATE\bin\Debug\halcondotnet.dll
+E:\Git\LocalServer\HalconATE\bin\Debug\halcondotnet.xml
+E:\Git\LocalServer\HalconATE\obj\Debug\HalconATE.dll
+E:\Git\LocalServer\HalconATE\obj\Debug\HalconATE.pdb
+E:\Git\LocalServer\LoalServer\bin\Debug\HalconATE.dll
+E:\Git\LocalServer\LoalServer\bin\Debug\HalconATE.pdb
+E:\Git\LocalServer\LocalServer\bin\Debug\HalconATE.dll
+E:\Git\LocalServer\LocalServer\bin\Debug\HalconATE.pdb
